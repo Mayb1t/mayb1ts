@@ -3,5 +3,5 @@ function switchTheme() {
   document.body.classList.toggle("light-theme");
 
   const theme = document.body.classList[0];
-  const music = theme === "light-theme" ? "normal-world.mpeg" : "inverted-world.mpeg";
+  const music = theme === "dark-theme" ? "goood-world.mpeg" : "good-world.mpeg";
 }
